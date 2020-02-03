@@ -1,5 +1,4 @@
 # https://pl.spoj.com/problems/PP0604A/
-
 from statistics import mean
 
 tests = int(input())
