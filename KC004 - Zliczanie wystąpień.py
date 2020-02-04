@@ -1,3 +1,4 @@
+# https://pl.spoj.com/problems/KC004/
 from sys import stdin
 
 for line in stdin:
