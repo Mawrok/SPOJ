@@ -2,5 +2,5 @@
 from sys import stdin
 
 for line in stdin:
-    numbers = list(map(int, line.split()))
-    print(numbers[2:].count(numbers[0]))
+    find, count, *numbers = map(int, line.rstrip().split(" "))
+    print(numbers.count(find))
