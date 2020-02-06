@@ -3,7 +3,6 @@ from statistics import mean
 
 tests = int(input())
 for i in range(tests):
-    numbers = list(map(int, input().split()))
-    numbers.pop(0)
+    count, *numbers = map(int, input().split())
     avg = mean(numbers)
     print(min(numbers, key = lambda arg: abs(avg - arg)))
