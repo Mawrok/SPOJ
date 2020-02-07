@@ -1,4 +1,4 @@
 # https://pl.spoj.com/problems/ETI06F1/
 from math import pi
-r, d = map(float, input().split())
-print(pi * (r * r - d * d / 4))
+radius, distance = map(float, input().split())
+print(pi * (radius ** 2 - distance ** 2 / 4))
